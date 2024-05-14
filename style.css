@@ -8,3 +8,13 @@
   height: 100vh;
   display: flex;
 }
+
+/* The saluteTextContainer is 3 times bigger than the saluteImgContainer */
+
+.saluteTextContainer {
+  flex: 3;
+}
+
+.saluteImgContainer {
+  flex: 1;
+}
