@@ -44,4 +44,7 @@
   font-size: 20vw;
   color: #333;
   cursor: default;
+  /* Center vertical and horizonal */
+  text-align: center;
+  line-height: 100vh;
 }
