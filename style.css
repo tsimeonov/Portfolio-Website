@@ -23,6 +23,11 @@
   flex: 1;
 }
 
+.saluteText {
+  color: #333;
+  font-size: 60vw;
+}
+
 .saluteImg {
   width: 100%;
 }
