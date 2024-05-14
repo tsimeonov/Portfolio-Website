@@ -12,6 +12,7 @@
   height: 100vh;
   display: flex;
   align-items: center;
+  overflow: hidden;
 }
 
 /* The saluteTextContainer is 3 times bigger than the saluteImgContainer */
@@ -37,4 +38,10 @@
 .nameContainer {
   height: 100vh;
   background-color: rebeccapurple;
+}
+
+.name {
+  font-size: 20vw;
+  color: #333;
+  cursor: default;
 }
