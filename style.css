@@ -11,6 +11,7 @@
 .salute {
   height: 100vh;
   display: flex;
+  align-items: center;
 }
 
 /* The saluteTextContainer is 3 times bigger than the saluteImgContainer */
@@ -26,6 +27,7 @@
 .saluteText {
   color: #333;
   font-size: 60vw;
+  cursor: default;
 }
 
 .saluteImg {
