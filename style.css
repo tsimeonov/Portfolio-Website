@@ -22,3 +22,7 @@
 .saluteImgContainer {
   flex: 1;
 }
+
+.saluteImg {
+  width: 100%;
+}
