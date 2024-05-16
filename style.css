@@ -56,3 +56,7 @@
 .dark {
   background: url("./img/bg1.png");
 }
+
+.purple {
+  background: rebeccapurple url("./img/bg2.png");
+}
