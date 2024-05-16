@@ -52,3 +52,7 @@
 .jobTitleContainer {
   height: 100vh;
 }
+
+.dark {
+  background: url("./img/bg1.png");
+}
