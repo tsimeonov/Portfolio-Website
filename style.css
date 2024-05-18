@@ -151,5 +151,14 @@
   position: absolute;
   top: 0;
   left: -100%;
-  background-color: aliceblue;
+  transition: 1s all;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #555;
+  color: #222;
+}
+
+.projectButton:hover.projectButton::after {
+  transform: translateX(100%);
 }
