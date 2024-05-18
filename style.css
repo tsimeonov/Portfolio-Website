@@ -169,3 +169,13 @@
   flex: 1;
   position: relative;
 }
+
+.laptopScreen {
+  width: 451px;
+  height: 283px;
+  position: absolute;
+  top: 18px;
+  left: 68px;
+  overflow: scroll;
+  background-color: aqua;
+}
