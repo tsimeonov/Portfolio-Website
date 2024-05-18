@@ -101,7 +101,12 @@
   top: 17px;
   left: 18px;
   border-radius: 28px;
-  overflow: hidden;
+  overflow: scroll;
+}
+
+/* Remove the scrollbar */
+.phoneScreen::-webkit-scrollbar {
+  display: none;
 }
 
 .phoneApp {
