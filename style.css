@@ -101,4 +101,9 @@
   top: 17px;
   left: 18px;
   border-radius: 28px;
+  overflow: hidden;
+}
+
+.phoneApp {
+  width: 100%;
 }
