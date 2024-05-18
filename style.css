@@ -120,3 +120,8 @@
   flex-direction: column;
   align-items: center;
 }
+
+.projectTitle {
+  font-size: 7vw;
+  color: #555;
+}
