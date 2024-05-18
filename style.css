@@ -91,5 +91,10 @@
 .phone {
   width: 300px;
   height: 600px;
-  background-color: aqua;
+}
+
+.phoneScreen {
+  width: 264px;
+  height: 567px;
+  background-color: aquamarine;
 }
