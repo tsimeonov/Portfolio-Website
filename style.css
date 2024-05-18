@@ -162,3 +162,10 @@
 .projectButton:hover.projectButton::after {
   transform: translateX(100%);
 }
+
+.laptop {
+  width: 600px;
+  height: 379px;
+  flex: 1;
+  position: relative;
+}
