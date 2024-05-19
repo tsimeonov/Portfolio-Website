@@ -6,6 +6,7 @@
 
 .container {
   background-color: #111;
+  overflow: hidden;
 }
 
 .salute {
@@ -258,5 +259,9 @@
   .phone,
   .laptop {
     transform: none !important;
+  }
+
+  .githubChart {
+    display: none;
   }
 }
