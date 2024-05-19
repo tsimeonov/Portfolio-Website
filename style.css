@@ -237,3 +237,7 @@
 .githubChart:hover .active:nth-child(2n + 1) {
   background-color: #195b2c;
 }
+
+.githubChart:hover .active:nth-child(2n) {
+  background-color: #063f24;
+}
