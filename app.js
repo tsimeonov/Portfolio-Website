@@ -2,7 +2,7 @@ const boxContainer = document.querySelector(".boxContainer");
 const saluteTextContainer = document.querySelector(".saluteTextContainer");
 const saluteImgContainer = document.querySelector(".saluteImgContainer");
 const authorName = document.querySelector(".name");
-const jobTitleContainer = document.querySelectorAll(".jobTitleContainer");
+const jobTitleContainers = document.querySelectorAll(".jobTitleContainer");
 
 for (let i = 0; i < 365; i++) {
   const list = [
@@ -35,6 +35,6 @@ window.addEventListener("scroll", () => {
     offsetY * 0.7
   }px)`;
   authorName.style.transform = `translateX(${offsetY * 0.1}px`;
-  jobTitleContainer[0].style.backgroundPositionY = `${offsetY * 0.5}px`;
-  jobTitleContainer[1].style.backgroundPositionY = `${-offsetY * 0.5}px`;
+  jobTitleContainers[0].style.backgroundPositionY = `${offsetY * 0.5}px`;
+  jobTitleContainers[1].style.backgroundPositionY = `${-offsetY * 0.5}px`;
 });
