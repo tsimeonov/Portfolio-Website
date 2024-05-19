@@ -250,4 +250,8 @@
   .project {
     flex-direction: column;
   }
+
+  .project:nth-child(2n) {
+    flex-direction: column;
+  }
 }
