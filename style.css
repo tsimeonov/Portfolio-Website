@@ -215,3 +215,11 @@
   color: #555;
   font-size: 12px;
 }
+
+.box {
+  width: 15px;
+  height: 15px;
+  background-color: #171c25;
+  border-radius: 2px;
+  cursor: pointer;
+}
