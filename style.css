@@ -254,4 +254,9 @@
   .project:nth-child(2n) {
     flex-direction: column;
   }
+
+  .phone,
+  .laptop {
+    transform: none !important;
+  }
 }
