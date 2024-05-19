@@ -247,6 +247,10 @@
   background-color: #063f24;
 }
 
+.githubSm {
+  display: none;
+}
+
 @media screen and (max-width: 1024px) {
   .project {
     flex-direction: column;
