@@ -252,6 +252,11 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .projects {
+    padding: 0 30px;
+    text-align: center;
+  }
+
   .project {
     flex-direction: column;
   }
