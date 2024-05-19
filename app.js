@@ -1,5 +1,6 @@
 const boxContainer = document.querySelector(".boxContainer");
 const saluteTextContainer = document.querySelector(".saluteTextContainer");
+const saluteImgContainer = document.querySelector(".saluteImgContainer");
 
 for (let i = 0; i < 365; i++) {
   const list = [
@@ -28,4 +29,7 @@ for (let i = 0; i < 365; i++) {
 window.addEventListener("scroll", () => {
   let offsetY = window.scrollY;
   saluteTextContainer.style.transform = `translateY(${offsetY * 0.2}px)`;
+  saluteImgContainer.style.transform = `translate(${offsetY * 0.4}px, ${
+    offsetY * 0.7
+  }px)`;
 });
