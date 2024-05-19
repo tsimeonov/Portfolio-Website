@@ -269,6 +269,11 @@
     display: none;
   }
 
+  .githubTitle {
+    text-align: center;
+    font-size: 10vw;
+  }
+
   .githubSm {
     display: flex;
     flex-direction: column;
