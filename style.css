@@ -268,4 +268,14 @@
   .githubChart {
     display: none;
   }
+
+  .githubSm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    color: #555;
+    font-size: 30px;
+    text-align: center;
+  }
 }
