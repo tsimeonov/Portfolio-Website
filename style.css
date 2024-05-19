@@ -206,6 +206,10 @@
   color: #333;
 }
 
+.githubChart {
+  width: 820px;
+}
+
 .dates {
   padding: 10px;
   color: #555;
