@@ -70,3 +70,5 @@ Adding the `container` and the first section `intoduction`
   </div>
 </div>
 ```
+
+## 4. Styling the introduction section
