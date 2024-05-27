@@ -42,4 +42,31 @@ Add the google fonts
 />
 ```
 
-## 3. Building the first component
+## 3. Building the first section
+
+Adding the `container` and the first section `intoduction`
+
+```html
+<div class="container">
+  <!-- INTRODUCTION -->
+  <div class="intro">
+    <div class="salute">
+      <div class="saluteTextContainer">
+        <h1 class="saluteText">Hi</h1>
+      </div>
+      <div class="saluteImgContainer">
+        <img src="./img/person.png" alt="Person Image" class="saluteImg" />
+      </div>
+    </div>
+    <div class="nameContainer">
+      <h2 class="name">I'm John</h2>
+    </div>
+    <div class="jobTitleContainer dark">
+      <h2 class="jobTitle">a Web Developer</h2>
+    </div>
+    <div class="jobTitleContainer purple ">
+      <h2 class="jobTitle">and Designer</h2>
+    </div>
+  </div>
+</div>
+```
