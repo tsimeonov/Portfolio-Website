@@ -41,3 +41,5 @@ Add the google fonts
   rel="stylesheet"
 />
 ```
+
+## 3. Building the first component
