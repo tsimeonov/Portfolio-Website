@@ -72,3 +72,78 @@ Adding the `container` and the first section `intoduction`
 ```
 
 ## 4. Styling the introduction section
+
+The code for styling the `introduction` section.
+
+```css
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  background-color: #111;
+  overflow: hidden;
+}
+
+.salute {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* The saluteTextContainer is 3 times bigger than the saluteImgContainer */
+
+.saluteTextContainer {
+  flex: 3;
+}
+
+.saluteImgContainer {
+  flex: 1;
+}
+
+.saluteText {
+  color: #333;
+  font-size: 60vw;
+  cursor: default;
+}
+
+.saluteImg {
+  width: 100%;
+}
+
+.nameContainer {
+  height: 100vh;
+  background-color: rebeccapurple;
+}
+
+.name {
+  font-size: 20vw;
+  color: #333;
+  cursor: default;
+  /* Center vertical and horizonal */
+  text-align: center;
+  line-height: 100vh;
+}
+
+.jobTitleContainer {
+  height: 100vh;
+}
+
+.dark {
+  background: url("./img/bg1.png");
+}
+
+.purple {
+  background: rebeccapurple url("./img/bg2.png");
+}
+
+.jobTitle {
+  font-size: 10vw;
+  color: #333;
+  line-height: 100vh;
+  cursor: default;
+}
+```
