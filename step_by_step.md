@@ -4,3 +4,5 @@
 
 Create the `index.html` , `style.css` and `app.js` files.
 Create folder `img` and add the appropriate images in it.
+
+## 2. Index.html initial setup
