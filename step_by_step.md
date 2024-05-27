@@ -22,3 +22,10 @@ Create folder `img` and add the appropriate images in it.
   </body>
 </html>
 ```
+
+Link the css file
+
+```html
+<!-- Link the CSS -->
+<link rel="stylesheet" href="./style.css" />
+```
