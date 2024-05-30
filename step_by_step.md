@@ -438,3 +438,5 @@ The code for styling the `introduction` section.
   display: none;
 }
 ```
+
+## 9. Add interectivity to the github section
