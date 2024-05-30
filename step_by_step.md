@@ -508,3 +508,5 @@ for (let i = 0; i < 365; i++) {
   }
 }
 ```
+
+## 11. Add the parallax effect
