@@ -217,3 +217,130 @@ The code for styling the `introduction` section.
 ```
 
 ## 6. Style the project section
+
+```css
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 30vh;
+  padding: 0 100px;
+}
+
+.projectsTitle {
+  font-size: 10vw;
+  color: #333;
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Find the even elements and reverse their position */
+.project:nth-child(2n) {
+  flex-direction: row-reverse;
+}
+
+.phone {
+  flex: 1;
+  width: 300px;
+  height: 600px;
+  position: relative;
+}
+
+.phoneScreen {
+  width: 264px;
+  height: 567px;
+  position: absolute;
+  top: 17px;
+  left: 18px;
+  border-radius: 28px;
+  overflow: scroll;
+}
+
+/* Remove the scrollbar */
+.phoneScreen::-webkit-scrollbar {
+  display: none;
+}
+
+.phoneApp {
+  width: 100%;
+}
+
+.projectDetail {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projectTitle {
+  font-size: 7vw;
+  color: #555;
+}
+
+.projectDesc {
+  font-size: 20px;
+  color: #555;
+  text-align: justify;
+  line-height: 40px;
+  margin: 40px 0;
+}
+
+.projectButton {
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 2px solid #555;
+  color: #555;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.projectButton::after {
+  content: "View Demo";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  transition: 1s all;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #555;
+  color: #222;
+}
+
+.projectButton:hover.projectButton::after {
+  transform: translateX(100%);
+}
+
+.laptop {
+  width: 600px;
+  height: 379px;
+  flex: 1;
+  position: relative;
+}
+
+.laptopScreen {
+  width: 451px;
+  height: 283px;
+  position: absolute;
+  top: 18px;
+  left: 68px;
+  overflow: scroll;
+}
+
+.laptopApp {
+  width: 100%;
+}
+
+/* Remove the scrollbar */
+.laptopScreen::-webkit-scrollbar {
+  display: none;
+}
+```
