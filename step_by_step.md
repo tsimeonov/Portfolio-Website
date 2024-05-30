@@ -346,3 +346,34 @@ The code for styling the `introduction` section.
 ```
 
 ## 7. Build the Github section
+
+```html
+<!-- GITHUB -->
+<div class="githubContainer">
+  <h1 class="githubTitle">Want to see all projects?</h1>
+  <div class="githubChart">
+    <div class="dates">
+      <span>Jan</span>
+      <span>Feb</span>
+      <span>Mar</span>
+      <span>Apr</span>
+      <span>May</span>
+      <span>Jun</span>
+      <span>Jul</span>
+      <span>Aug</span>
+      <span>Sep</span>
+      <span>Oct</span>
+      <span>Nov</span>
+      <span>Dec</span>
+    </div>
+    <div class="boxContainer"></div>
+    <h1 class="githubTitle">ON GITHUB</h1>
+  </div>
+  <div class="githubSm">
+    <a href="#">
+      <img src="./img/github.png" alt="" />
+    </a>
+    <h2>Find me on Github</h2>
+  </div>
+</div>
+```
