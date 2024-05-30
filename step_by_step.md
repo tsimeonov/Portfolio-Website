@@ -344,3 +344,5 @@ The code for styling the `introduction` section.
   display: none;
 }
 ```
+
+## 7. Build the Github section
