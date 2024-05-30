@@ -464,3 +464,5 @@ for (let i = 0; i < 365; i++) {
   boxContainer.appendChild(el);
 }
 ```
+
+## 10. Add the media queries
