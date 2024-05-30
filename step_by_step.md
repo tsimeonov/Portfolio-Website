@@ -147,3 +147,5 @@ The code for styling the `introduction` section.
   cursor: default;
 }
 ```
+
+## 5. Building the second section
