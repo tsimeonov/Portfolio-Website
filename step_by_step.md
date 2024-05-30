@@ -215,3 +215,5 @@ The code for styling the `introduction` section.
   </div>
 </div>
 ```
+
+## 6. Style the project section
