@@ -149,3 +149,69 @@ The code for styling the `introduction` section.
 ```
 
 ## 5. Building the second section
+
+```html
+<!-- PROJECTS -->
+<div class="projects">
+  <div class="projects">
+    <h1 class="projectTitle">Here are some of my projects</h1>
+    <div class="project">
+      <div class="phone">
+        <img src="./img/phone.png" alt="" />
+        <div class="phoneScreen">
+          <img src="./img/phone1.png" alt="" class="phoneApp" />
+        </div>
+      </div>
+      <div class="projectDetail">
+        <h1 class="projectTitle">Vortex</h1>
+        <p class="projectDesc">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ut
+          voluptatum voluptatem, dolorum laborum maiores, nemo incidunt facilis
+          sed accusamus deleniti repellat asperiores quae nihil fugit fugiat
+          quidem! Soluta nam repudiandae ut repellat consectetur alias quia
+          eligendi provident dolor laborum!
+        </p>
+        <button class="projectButton">learn more</button>
+      </div>
+    </div>
+    <div class="project">
+      <div class="laptop">
+        <img src="./img/laptop.png" alt="" />
+        <div class="laptopScreen">
+          <img src="./img/laptop1.png" alt="" class="phoneApp" />
+        </div>
+      </div>
+      <div class="projectDetail">
+        <h1 class="projectTitle">Studio</h1>
+        <p class="projectDesc">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ut
+          voluptatum voluptatem, dolorum laborum maiores, nemo incidunt facilis
+          sed accusamus deleniti repellat asperiores quae nihil fugit fugiat
+          quidem! Soluta nam repudiandae ut repellat consectetur alias quia
+          eligendi provident dolor laborum!
+        </p>
+        <button class="projectButton">learn more</button>
+      </div>
+    </div>
+    <div class="project">
+      <div class="phone">
+        <img src="./img/phone.png" alt="" />
+        <div class="phoneScreen">
+          <img src="./img/phone1.png" alt="" class="phoneApp" />
+        </div>
+      </div>
+      <div class="projectDetail">
+        <h1 class="projectTitle">Vortex</h1>
+        <p class="projectDesc">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ut
+          voluptatum voluptatem, dolorum laborum maiores, nemo incidunt facilis
+          sed accusamus deleniti repellat asperiores quae nihil fugit fugiat
+          quidem! Soluta nam repudiandae ut repellat consectetur alias quia
+          eligendi provident dolor laborum!
+        </p>
+        <button class="projectButton">learn more</button>
+      </div>
+    </div>
+  </div>
+</div>
+```
