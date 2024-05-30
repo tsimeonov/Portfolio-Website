@@ -466,3 +466,45 @@ for (let i = 0; i < 365; i++) {
 ```
 
 ## 10. Add the media queries
+
+```css
+@media screen and (max-width: 1024px) {
+  .projects {
+    padding: 0 30px;
+    text-align: center;
+  }
+
+  .project {
+    flex-direction: column;
+    height: max-content;
+  }
+
+  .project:nth-child(2n) {
+    flex-direction: column;
+  }
+
+  .phone,
+  .laptop {
+    transform: none !important;
+  }
+
+  .githubChart {
+    display: none;
+  }
+
+  .githubTitle {
+    text-align: center;
+    font-size: 10vw;
+  }
+
+  .githubSm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    color: #555;
+    font-size: 30px;
+    text-align: center;
+  }
+}
+```
