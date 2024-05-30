@@ -377,3 +377,64 @@ The code for styling the `introduction` section.
   </div>
 </div>
 ```
+
+## 8. Style the Github section
+
+```css
+.githubContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.githubTitle {
+  font-size: 100px;
+  color: #333;
+}
+
+.githubChart {
+  width: 820px;
+  text-align: center;
+}
+
+.dates {
+  padding: 10px;
+  color: #555;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.boxContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.box {
+  width: 15px;
+  height: 15px;
+  background-color: #171c25;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: 2s all ease;
+}
+
+.active:nth-child(4n) {
+  background-color: #195b2c;
+}
+
+.githubChart:hover .active:nth-child(2n + 1) {
+  background-color: #195b2c;
+}
+
+.githubChart:hover .active:nth-child(2n) {
+  background-color: #063f24;
+}
+
+.githubSm {
+  display: none;
+}
+```
